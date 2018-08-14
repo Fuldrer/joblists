@@ -14,7 +14,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Looking for a Job?</h1>
+                <h1>Job Search</h1>
                 <input type="text" onChange={this.handleChange} name="search" /> 
                 <Link className="search "to={`/Jobs/${this.state.query}`}>Search</Link>
             </div>
